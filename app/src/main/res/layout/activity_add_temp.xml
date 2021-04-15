@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey_900">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="2dp"
+                app:civ_border_color="#8E24AA"
+                android:id="@+id/img_temp_add"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/txtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+
+                android:layout_toLeftOf="@id/img_temp_add"
+                android:text="نام آیتم : "
+                android:textColor="@color/blue_grey_50"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_temp_add_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/edt_temp_add_out"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btnlogin"
+                android:gravity="right"
+                android:inputType="text"
+                android:paddingRight="7dp" />
+
+            <TextView
+                android:id="@+id/txtnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtn"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="6dp"
+                android:layout_toLeftOf="@id/img_temp_add"
+                android:text="شماره سنسور :   "
+                android:textColor="@color/blue_grey_50"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edt_temp_add_out"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/txtnum"
+                android:layout_toLeftOf="@id/txtnum"
+                android:background="@drawable/btnlogin"
+                android:gravity="right"
+                android:inputType="number"
+                android:paddingRight="7dp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/img_temp_add"
+                android:layout_below="@+id/edt_temp_add_out"
+                android:layout_alignLeft="@id/edt_temp_add_out"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_list_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="مشاهده لیست" />
+
+                <Button
+                    android:id="@+id/btn_add_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="افزودن " />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_grey_800">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycle_add_temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

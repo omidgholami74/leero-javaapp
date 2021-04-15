@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "502099312788",
+    "firebase_url": "https://omidbms-12a8c.firebaseio.com",
+    "project_id": "omidbms-12a8c",
+    "storage_bucket": "omidbms-12a8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502099312788:android:8434ae890217d540",
+        "android_client_info": {
+          "package_name": "com.example.omid.omidbmsMulti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502099312788-sh0savkcvdnc83dad80pbkr8888og5p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omid.omidbmsMulti",
+            "certificate_hash": "c273f90421a715505eb3f13a80e3ccc747b5b118"
+          }
+        },
+        {
+          "client_id": "502099312788-390to9oq4kv1kn4u3vk1cpgf52qvj02s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm4nhfm_WbSP_PCKOdWR5qRJJfONSi7n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502099312788-390to9oq4kv1kn4u3vk1cpgf52qvj02s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

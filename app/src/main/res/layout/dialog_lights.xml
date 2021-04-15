@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/max_margin"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نام : " />
+    </LinearLayout>
+    <EditText
+        android:paddingRight="@dimen/Standard_margin"
+        android:background="@drawable/edt"
+        android:id="@+id/edt_nameItem_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شماره خروجی ها : " />
+    </LinearLayout>
+
+    <EditText android:paddingRight="@dimen/Standard_margin"
+        android:layout_marginTop="@dimen/Standard_margin"
+        android:background="@drawable/edt"
+        android:id="@+id/edt_output_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/Standard_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="0.33"
+            android:text="تایید"
+            android:background="@drawable/btn_round"
+            android:textColor="@color/grey_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_applyItem_pop"/>
+        <Button
+            android:text="حذف"
+            android:layout_weight="0.33"
+            android:background="@drawable/btn_round"
+            android:textColor="@color/grey_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_deleteItem_pop"/>
+        <Button
+            android:text="انصراف"
+            android:layout_weight="0.33"
+            android:background="@drawable/btn_round"
+            android:textColor="@color/grey_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancelItem_pop"/>
+
+    </LinearLayout>
+</LinearLayout>

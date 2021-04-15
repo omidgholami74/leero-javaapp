@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sd"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/img_remote"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/remote2" />
+
+    <ImageView
+        android:id="@+id/img_sec"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/security2" />
+    <ImageView
+        android:id="@+id/img_temp"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/thermometer2" />
+    <ImageView
+        android:id="@+id/img_set"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/setting2" />
+
+
+</LinearLayout>

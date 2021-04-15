@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:text="تنظیم آیپی" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutip"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp">
+
+        <EditText
+            android:id="@+id/edtip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="آیپی را وارد کنید..."
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutport"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp">
+
+        <EditText
+            android:id="@+id/edtport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="پورت را وارد کنید..."
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtCancel"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_new_folder_action_text_margin"
+            android:layout_marginLeft="@dimen/dialog_new_folder_action_text_margin"
+            android:layout_marginStart="@dimen/dialog_new_folder_action_text_margin"
+            android:layout_marginTop="@dimen/dialog_new_folder_action_text_margin"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="منصرف شدم"
+            android:textColor="@color/colorAccent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtSave"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dialog_new_folder_action_text_margin"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="اعمال تغییر"
+            android:textColor="@color/colorAccent" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

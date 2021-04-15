@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_router_black_30dp"
+        android:title="اتصال به سوکت"
+        android:id="@+id/menu_item_socket"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_settings_input_component_black_24dp"
+        android:title="چک کردن اتصال"
+        android:id="@+id/menu_isConnect"
+        app:showAsAction="always" />
+</menu>

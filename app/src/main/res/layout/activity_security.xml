@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sd"
+    android:orientation="vertical"
+    tools:context=".Security">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_alarmOff"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="دزدگیر خاموش"
+                app:srcCompat="@drawable/btnalaramoff" />
+
+            <ImageView
+                android:id="@+id/btn_alarms_on"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:gravity="center"
+                android:text="دزدگیر روشن"
+                app:srcCompat="@drawable/btnalarmon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_dayLightOff"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="چراغ های روز خاموش"
+                app:srcCompat="@drawable/btndayoff" />
+
+            <ImageView
+                android:id="@+id/btn_dayLightOn"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="چراغ های روز روشن"
+                app:srcCompat="@drawable/btndayon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_nightLightOFF"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="حالت شب خاموش"
+                app:srcCompat="@drawable/btnshaboff" />
+
+            <ImageView
+                android:id="@+id/btn_NightLightON"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="حالت شب روشن"
+                app:srcCompat="@drawable/btnshabon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

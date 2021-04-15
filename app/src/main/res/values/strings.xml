@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">smart home</string>
+    <string name="username">نام کاربری</string>
+    <string name="Login_Title">عضویت</string>
+    <string name="name">نام کاربری</string>
+    <string name="password">پسورد</string>
+    <string name="title_activity_add__temp">Add_Temp</string>
+</resources>

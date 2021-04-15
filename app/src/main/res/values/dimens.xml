@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_separator">1sp</dimen>
+
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+
+    <!-- Folders -->
+    <dimen name="menu_folder_padding">8dp</dimen>
+    <dimen name="menu_folder_text_margin">8dp</dimen>
+    <dimen name="menu_folder_text_size">16sp</dimen>
+
+    <!-- Dialogs -->
+    <dimen name="dialog_new_folder_action_text_margin">16dp</dimen>
+    <dimen name="dialog_new_folder_title_text_margin">8dp</dimen>
+    <dimen name="dialog_new_folder_edt_margin">10dp</dimen>
+    <dimen name="dialog_new_folder_text_width">48dp</dimen>
+
+    <!-- Notes -->
+    <dimen name="menu_note_padding">8dp</dimen>
+    <dimen name="menu_note_text_margin">8dp</dimen>
+    <dimen name="menu_note_img_id_margin">4dp</dimen>
+    <dimen name="menu_note_title_margin">8dp</dimen>
+    <dimen name="menu_note_title_size">18sp</dimen>
+    <dimen name="menu_note_text_size">16sp</dimen>
+    <dimen name="menu_note_id_img_size">24dp</dimen>
+    <dimen name="add_note_side_item_margin">20dp</dimen>
+    <dimen name="add_note_side_action_margin">8dp</dimen>
+    <dimen name="add_note_utilities_img_size">48dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="menu_bg_radius">2dp</dimen>
+    <dimen name="menu_elevation">1dp</dimen>
+    <dimen name="menu_margin">4dp</dimen>
+    <dimen name="menu_delete_item_size">48dp</dimen>
+
+
+    <!-- Custom Fab -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_stroke_width">1dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="fab_standard_margin">16dp</dimen>
+
+    <!-- Custom Spinner -->
+    <dimen name="spinner_horizontal_margin">4dp</dimen>
+    <dimen name="spinner_vertical_margin">10dp</dimen>
+    <dimen name="spinner_margin_each_other">8dp</dimen>
+    <dimen name="max_margin">20dp</dimen>
+    <dimen name="text_nomral">14sp</dimen>
+    <dimen name="text_larg">18sp</dimen>
+    <dimen name="Standard_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>
